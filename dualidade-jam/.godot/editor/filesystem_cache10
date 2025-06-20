@@ -1,16 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750448331
+::res://::1750461773
 button_theme.tres::Theme/Theme::928236092485265310::1750430945::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::4238379311929131723::1750448109::1750448264::1::::<><><>0<>0<>0f3614eac191b25e72a037831553ebe9<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://scenes/::1750455915
-main.tscn::PackedScene::7847433876085048214::1750455915::0::1::::<><><>0<>0<><>::uid://clljfpt7ailvb::::res://scenes/player.tscn<>uid://hgndgc6wtyd1::::res://sprites/New Piskel-2.png (2).png
-main_menu.tscn::PackedScene::6485644597415146258::1750455915::0::1::::<><><>0<>0<><>::uid://nhv6bhytlvd3::::res://button_theme.tres
-player.tscn::PackedScene::5568183003259436023::1750455915::0::1::::<><><>0<>0<><>::uid://bcqck4f6jbsga::::res://scripts/player.gd<>uid://dfuubhy5q6hiq::::res://sprites/New Piskel-3.png.png
+::res://scenes/::1750459429
+main.tscn::PackedScene::7847433876085048214::1750459429::0::1::::<><><>0<>0<><>::uid://clljfpt7ailvb::::res://scenes/player.tscn<>uid://hgndgc6wtyd1::::res://sprites/New Piskel-2.png (2).png
+main_menu.tscn::PackedScene::6485644597415146258::1750459429::0::1::::<><><>0<>0<><>::uid://nhv6bhytlvd3::::res://button_theme.tres
+player.tscn::PackedScene::5568183003259436023::1750459429::0::1::::<><><>0<>0<><>::uid://bcqck4f6jbsga::::res://scripts/player.gd<>uid://dfuubhy5q6hiq::::res://sprites/New Piskel-3.png.png
 ::res://scripts/::1750448445
 player.gd::GDScript::2559969239280465868::1750448445::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://sprites/::1750457055
-Moeda.png::CompressedTexture2D::8744010088952316162::1750457055::1750457055::1::::<><><>0<>0<>0a9186c29166dfb70a718f38a4c80d91<>res://.godot/imported/Moeda.png-dfbcfbb3fb1333f69a97cc2472ba5f30.ctex::
-New Piskel-2.png (1).png::CompressedTexture2D::984063831501656260::1750452604::1750452604::1::::<><><>0<>0<>60a1ba1dcd3fc8bb7c896b1dabd9cc29<>res://.godot/imported/New Piskel-2.png (1).png-afcdf86fa0bbf24263fc00d467cc29c9.ctex::
-New Piskel-2.png (2).png::CompressedTexture2D::504503169946645944::1750453212::1750453212::1::::<><><>0<>0<>eae503dc024007a281daa16da8e4b43d<>res://.godot/imported/New Piskel-2.png (2).png-95bfa4b0a1df333731d0ab7bfc7f8265.ctex::
-New Piskel-3.png.png::CompressedTexture2D::7552710356124322676::1750453355::1750453355::1::::<><><>0<>0<>ae42db61cfaf655c67bfc218a2a10467<>res://.godot/imported/New Piskel-3.png.png-19abc6010883f5dc07fd7bea18998c3c.ctex::
-New Piskel-6.png.png::CompressedTexture2D::1953978443541782328::1750451251::1750451251::1::::<><><>0<>0<>0df6b6f1c2f36d7fb03ca5ff07f4f628<>res://.godot/imported/New Piskel-6.png.png-a0d9ff0562197cbfaf6c221c81d7240f.ctex::
+::res://sprites/::1750461898
+fudido.png::CompressedTexture2D::6517273550915550095::1750461898::1750461898::1::::<><><>0<>0<>9c3caa98da9450ec84b563553284b88b<>res://.godot/imported/fudido.png-9ab363e1f166af48333c53fa1a6eaddc.ctex::
+Moeda.png::CompressedTexture2D/CompressedTexture2D::8744010088952316162::1750457055::1750457055::1::::<><><>0<>0<>0a9186c29166dfb70a718f38a4c80d91<>res://.godot/imported/Moeda.png-dfbcfbb3fb1333f69a97cc2472ba5f30.ctex::
+New Piskel-2.png (1).png::CompressedTexture2D/CompressedTexture2D::984063831501656260::1750452604::1750452604::1::::<><><>0<>0<>60a1ba1dcd3fc8bb7c896b1dabd9cc29<>res://.godot/imported/New Piskel-2.png (1).png-afcdf86fa0bbf24263fc00d467cc29c9.ctex::
+New Piskel-2.png (2).png::CompressedTexture2D/CompressedTexture2D::504503169946645944::1750453212::1750453212::1::::<><><>0<>0<>eae503dc024007a281daa16da8e4b43d<>res://.godot/imported/New Piskel-2.png (2).png-95bfa4b0a1df333731d0ab7bfc7f8265.ctex::
+New Piskel-3.png.png::CompressedTexture2D/CompressedTexture2D::7552710356124322676::1750453355::1750453355::1::::<><><>0<>0<>ae42db61cfaf655c67bfc218a2a10467<>res://.godot/imported/New Piskel-3.png.png-19abc6010883f5dc07fd7bea18998c3c.ctex::
+New Piskel-6.png.png::CompressedTexture2D/CompressedTexture2D::1953978443541782328::1750451251::1750451251::1::::<><><>0<>0<>0df6b6f1c2f36d7fb03ca5ff07f4f628<>res://.godot/imported/New Piskel-6.png.png-a0d9ff0562197cbfaf6c221c81d7240f.ctex::
