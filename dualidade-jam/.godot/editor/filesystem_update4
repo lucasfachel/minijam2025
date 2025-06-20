@@ -1,4 +1,9 @@
+res://scripts/player.gd
+res://scenes/moeda.tscn
+res://scripts/moeda.gd
 res://scenes/main.tscn
 res://scenes/main_menu.tscn
 res://scenes/player.tscn
-res://scripts/player.gd
+res://scripts/global_data.gd
+res://scenes/label.gd
+res://scenes/masterController.gd
