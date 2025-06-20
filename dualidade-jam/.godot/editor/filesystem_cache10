@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1750448263
+button_theme.tres::Theme/Theme::928236092485265310::1750430945::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::4238379311929131723::1750448109::1750448264::1::::<><><>0<>0<>0f3614eac191b25e72a037831553ebe9<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://scenes/::1750448170
+main.tscn::PackedScene::7847433876085048214::1750443140::0::1::::<><><>0<>0<><>::uid://clljfpt7ailvb::::res://scenes/player.tscn
+main_menu.tscn::PackedScene::6485644597415146258::1750443140::0::1::::<><><>0<>0<><>::uid://nhv6bhytlvd3::::res://button_theme.tres
+player.tscn::PackedScene::5568183003259436023::1750443140::0::1::::<><><>0<>0<><>::uid://bcqck4f6jbsga::::res://scripts/player.gd<>uid://b1ndqufvn22gl::::res://icon.svg
+::res://scripts/::1750448170
+player.gd::GDScript::2559969239280465868::1750436281::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://sprites/::1750422257

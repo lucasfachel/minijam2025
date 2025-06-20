@@ -1,3 +1,26 @@
-[gd_scene format=3 uid="uid://dj2mdbmmcaw6a"]
+[gd_scene load_steps=4 format=3 uid="uid://dj2mdbmmcaw6a"]
+
+[ext_resource type="PackedScene" uid="uid://clljfpt7ailvb" path="res://scenes/player.tscn" id="1_o5qli"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_o5qli"]
+size = Vector2(1000, 100)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o5qli"]
+size = Vector2(1000, 100)
 
 [node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_o5qli")]
+position = Vector2(117, 297)
+SPEED = 400.0
+JUMP_VELOCITY = -600.0
+
+[node name="floor" type="StaticBody2D" parent="."]
+position = Vector2(471, 481)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="floor"]
+modulate = Color(0.0110876, 0.0110876, 0.0110876, 1)
+mesh = SubResource("QuadMesh_o5qli")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="floor"]
+shape = SubResource("RectangleShape2D_o5qli")
