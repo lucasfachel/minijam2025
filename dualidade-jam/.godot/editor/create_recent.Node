@@ -1,5 +1,6 @@
 CollisionShape2D
 Area2D
+Node
 Sprite2D
 StaticBody2D
 Label
@@ -11,4 +12,3 @@ AnimatedSprite2D
 TileMap
 Camera2D
 MeshInstance2D
-CharacterBody2D

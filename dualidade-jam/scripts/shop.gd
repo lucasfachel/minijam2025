@@ -5,9 +5,9 @@ extends Area2D
 
 var ativo = false
 
-#inventario loja
-@onready var pernas = $"../ShopWindow/Pernas"
-@onready var olhos = $"../ShopWindow/Olhos"
+#inventario loja$"../Camera2D/ShopWindow"
+@onready var pernas = $"../Camera2D/ShopWindow/Pernas"
+@onready var olhos = $"../Camera2D/ShopWindow/Olhos"
 @onready var player = $"../CharacterBody2D"
 
 # Called when the node enters the scene tree for the first time.

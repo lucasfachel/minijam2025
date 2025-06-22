@@ -1,13 +1,10 @@
-res://scenes/flip_platform.tscn
-res://scenes/player.tscn
 res://scenes/main.tscn
 res://scenes/main_menu.tscn
+res://scenes/player.tscn
 res://scenes/shop.tscn
 res://scenes/caixa.tscn
 res://scenes/moeda.tscn
-res://scenes/caixa.gd
+res://scenes/flip_platform.tscn
 res://scripts/player.gd
-res://scenes/flip_platform.gd
+res://scenes/Area_2.gd
 res://scripts/shop.gd
-res://scripts/flip_platform.gd
-res://scenes/flip_area_top.gd

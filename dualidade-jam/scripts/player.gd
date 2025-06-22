@@ -9,11 +9,10 @@ signal collided_with_object(body)
 var flipDirection = 1 #1 - Padrao // -1 - Invertido
 var isJumping = false
 
-var jumpUnlocked = false
+var jumpUnlocked = true
 
 
 func _physics_process(delta: float) -> void:
-	print(flipDirection)
 	# Add the gravity.
 	if not is_on_floor():
 		if flipDirection == 1:
@@ -55,3 +54,34 @@ func _physics_process(delta: float) -> void:
 		if not isJumping: animator.play("idle")
 	
 	move_and_slide()
+	var push_threshold_velocity: float = 100.0 
+	var push_force: float = 500.0
+	for i in range(get_slide_collision_count()):
+		var collision = get_slide_collision(i)
+		var collided_body = collision.get_collider()
+
+		if collided_body is RigidBody2D: # Verifica se colidiu com um RigidBody2D
+			var rigid_body = collided_body
+
+			# Determinar a direção do empurrão
+			# Se o Player está se movendo, empurra na direção da velocidade X do Player.
+			var push_direction = Vector2.ZERO
+			if abs(velocity.x) > push_threshold_velocity: # Player se movendo horizontalmente?
+				push_direction.x = sign(velocity.x) # Empurra na direção do movimento X do Player
+			elif abs(velocity.y) > push_threshold_velocity: # Player se movendo verticalmente? (para empurrar para cima/baixo)
+				push_direction.y = sign(velocity.y) # Empurra na direção do movimento Y do Player
+			else:
+				# Se o Player está parado, mas encostado, empurra da posição do Player para a caixa
+				push_direction = (rigid_body.global_position - global_position).normalized()
+				# Opcional: Para manter empurrão puramente horizontal/vertical
+				if abs(push_direction.x) > abs(push_direction.y):
+					push_direction.y = 0
+				else:
+					push_direction.x = 0
+				push_direction = push_direction.normalized()
+
+			# Aplicar força contínua (mais suave que impulso em _physics_process)
+			if push_direction != Vector2.ZERO:
+				rigid_body.apply_central_force(push_direction * push_force)
+				# Opcional: para debug
+				# print("Empurrando ", rigid_body.name, " na direção: ", push_direction, " com força: ", push_force)
