@@ -1,18 +1,22 @@
 extends Area2D
 
 @onready var label = $Label
+@onready var master = $".."
 
 var ativo = false
 
 #inventario loja
-@onready var pernas = $"../Panel/Pernas"
+@onready var pernas = $"../ShopWindow/Pernas"
+@onready var olhos = $"../ShopWindow/Olhos"
+@onready var player = $"../CharacterBody2D"
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	#para cada item da loja faça isso
 	pernas.pressed.connect(Callable(self, "compra").bind(1))
+	olhos.pressed.connect(Callable(self, "compra").bind(2))
 	
-	var player_node = get_tree().get_first_node_in_group("player")
+	var player_node = player
 	label.visible = false
 	
 	if player_node:
@@ -34,17 +38,21 @@ func _on_body_entered(body):
 func _on_body_exited(body):
 	label.visible = false
 	ativo = false
-	$"..".closeShop()
+	master.closeShop()
 
 func interact_with_player(body_that_collided):
 	if ativo:
 		print("Player interagiu com ESTE objeto: ", name)
-		$"..".openShop()
+		master.openShop()
 
 func compra(item):
 	match item:
 		1: 
-			#ativa pernas nop player
+			master.unlockLegs()
 			pernas.get_child(0).visible = false
 			pernas.get_child(1).visible = true
-		2: pass
+		2: 
+			master.unlockEyes()
+			olhos.get_child(0).visible = false
+			olhos.get_child(1).visible = true
+		3: pass

@@ -1,7 +1,8 @@
-[gd_scene load_steps=16 format=3 uid="uid://clljfpt7ailvb"]
+[gd_scene load_steps=17 format=3 uid="uid://clljfpt7ailvb"]
 
 [ext_resource type="Script" uid="uid://bcqck4f6jbsga" path="res://scripts/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://cy4asp64bkc7h" path="res://sprites/fudido.png" id="2_g2els"]
+[ext_resource type="Texture2D" uid="uid://dfuubhy5q6hiq" path="res://sprites/BlindMask.png" id="3_qhqgy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qhqgy"]
 atlas = ExtResource("2_g2els")
@@ -114,3 +115,8 @@ animation = &"run"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -14.5)
 shape = SubResource("RectangleShape2D_dqkch")
+
+[node name="BlindFilter" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -14.5)
+texture = ExtResource("3_qhqgy")

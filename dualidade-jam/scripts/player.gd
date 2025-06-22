@@ -6,15 +6,21 @@ extends CharacterBody2D
 @export var JUMP_VELOCITY = -400.0
 
 signal collided_with_object(body)
+var flipDirection = 1 #1 - Padrao // -1 - Invertido
 var isJumping = false
 
-var jumpUnlocked = true
+var jumpUnlocked = false
 
 
 func _physics_process(delta: float) -> void:
+	print(flipDirection)
 	# Add the gravity.
 	if not is_on_floor():
-		velocity += get_gravity() * delta
+		if flipDirection == 1:
+			velocity += get_gravity() * delta 
+		elif flipDirection == -1:
+			velocity -= get_gravity() * delta
+	
 		
 	if isJumping:
 		animator.play("jump")
@@ -31,16 +37,19 @@ func _physics_process(delta: float) -> void:
 	
 	# Handle jump.
 	if Input.is_action_just_pressed("jump") and is_on_floor() and jumpUnlocked:
-		velocity.y = JUMP_VELOCITY
-		isJumping = true
-		
+		if flipDirection == 1:
+			velocity.y = JUMP_VELOCITY
+			isJumping = true
+		elif flipDirection == -1:
+			velocity.y = -1 * JUMP_VELOCITY
+			isJumping = true
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction := Input.get_axis("move_l", "move_r")
 	if direction:
 		velocity.x = direction * SPEED
 		if not isJumping: animator.play("run")
-		animator.flip_h = direction < 0
+		animator.flip_h = direction * flipDirection < 0
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		if not isJumping: animator.play("idle")

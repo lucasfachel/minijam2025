@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dj2mdbmmcaw6a"]
+[gd_scene load_steps=10 format=3 uid="uid://dj2mdbmmcaw6a"]
 
 [ext_resource type="Script" uid="uid://dk4sn1y14lf7" path="res://scripts/masterController.gd" id="1_jyhfs"]
 [ext_resource type="PackedScene" uid="uid://clljfpt7ailvb" path="res://scenes/player.tscn" id="1_o5qli"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cvdojxrxa5ggt" path="res://scenes/moeda.tscn" id="3_sugp2"]
 [ext_resource type="PackedScene" uid="uid://c6h5taipend0n" path="res://scenes/shop.tscn" id="5_tbgi4"]
 [ext_resource type="PackedScene" uid="uid://cxwe5qjgxugxy" path="res://scenes/caixa.tscn" id="6_tefeu"]
+[ext_resource type="PackedScene" uid="uid://45ywdr2xofkt" path="res://scenes/flip_platform.tscn" id="7_o6xl0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sugp2"]
 texture = ExtResource("2_0wfyh")
@@ -150,7 +151,7 @@ script = ExtResource("1_jyhfs")
 position = Vector2(64, 145)
 
 [node name="CharacterBody2D" parent="." groups=["player"] instance=ExtResource("1_o5qli")]
-position = Vector2(191, 130)
+position = Vector2(189, 139)
 SPEED = 100.0
 JUMP_VELOCITY = -300.0
 
@@ -177,14 +178,14 @@ offset_right = 75.0
 offset_bottom = 55.0
 text = "teste"
 
-[node name="Panel" type="Panel" parent="."]
+[node name="ShopWindow" type="Panel" parent="."]
 visible = false
 offset_left = 569.0
 offset_top = 55.0
 offset_right = 882.0
 offset_bottom = 431.0
 
-[node name="Pernas" type="Button" parent="Panel"]
+[node name="Pernas" type="Button" parent="ShopWindow"]
 self_modulate = Color(1, 1, 1, 0)
 layout_mode = 0
 offset_left = 21.0
@@ -192,7 +193,7 @@ offset_top = 17.0
 offset_right = 284.0
 offset_bottom = 65.0
 
-[node name="Label" type="Label" parent="Panel/Pernas"]
+[node name="Label" type="Label" parent="ShopWindow/Pernas"]
 layout_mode = 0
 offset_left = 23.0
 offset_top = 12.0
@@ -200,7 +201,31 @@ offset_right = 77.0
 offset_bottom = 35.0
 text = "Pernas"
 
-[node name="Label2" type="Label" parent="Panel/Pernas"]
+[node name="Label2" type="Label" parent="ShopWindow/Pernas"]
+visible = false
+layout_mode = 0
+offset_left = 27.0
+offset_top = 14.0
+offset_right = 67.0
+offset_bottom = 37.0
+text = "Sold"
+
+[node name="Olhos" type="Button" parent="ShopWindow"]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 65.0
+offset_right = 284.0
+offset_bottom = 113.0
+
+[node name="Não comprado" type="Label" parent="ShopWindow/Olhos"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 12.0
+offset_right = 68.0
+offset_bottom = 35.0
+text = "Olhos"
+
+[node name="Comprado" type="Label" parent="ShopWindow/Olhos"]
 visible = false
 layout_mode = 0
 offset_left = 27.0
@@ -210,4 +235,7 @@ offset_bottom = 37.0
 text = "Sold"
 
 [node name="Caixa" parent="." instance=ExtResource("6_tefeu")]
-position = Vector2(194, 154)
+position = Vector2(142, 77)
+
+[node name="FlipPlatform" parent="." groups=["interactables"] instance=ExtResource("7_o6xl0")]
+position = Vector2(357, 164)

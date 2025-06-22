@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfuubhy5q6hiq"
-path="res://.godot/imported/New Piskel-3.png.png-19abc6010883f5dc07fd7bea18998c3c.ctex"
+path="res://.godot/imported/BlindMask.png-4b7f4eceeb4395032da628bcfd4ac93a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/New Piskel-3.png.png"
-dest_files=["res://.godot/imported/New Piskel-3.png.png-19abc6010883f5dc07fd7bea18998c3c.ctex"]
+source_file="res://sprites/BlindMask.png"
+dest_files=["res://.godot/imported/BlindMask.png-4b7f4eceeb4395032da628bcfd4ac93a.ctex"]
 
 [params]
 

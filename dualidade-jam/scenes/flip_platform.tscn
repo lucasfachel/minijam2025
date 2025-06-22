@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://45ywdr2xofkt"]
+
+[ext_resource type="Texture2D" uid="uid://cgoxxy756klin" path="res://sprites/New Piskel (1).png" id="1_681rs"]
+[ext_resource type="Script" uid="uid://bevdhrk03jom" path="res://scripts/flip_platform.gd" id="1_ov8yg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p81pc"]
+size = Vector2(50, 6)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ov8yg"]
+size = Vector2(44, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r0hrj"]
+size = Vector2(44, 1)
+
+[node name="FlipPlatform" type="StaticBody2D"]
+script = ExtResource("1_ov8yg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_p81pc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_681rs")
+
+[node name="FlipAreaTop" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FlipAreaTop"]
+position = Vector2(0, -4.5)
+shape = SubResource("RectangleShape2D_ov8yg")
+
+[node name="FlipAreaBot" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FlipAreaBot"]
+position = Vector2(0, 4.5)
+shape = SubResource("RectangleShape2D_r0hrj")
