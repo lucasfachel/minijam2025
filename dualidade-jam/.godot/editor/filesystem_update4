@@ -13,3 +13,4 @@ res://scripts/flip_platform.gd
 res://scenes/plataforma_fina.tscn
 res://scenes/alavanca.tscn
 res://scenes/alavanca.gd
+res://scenes/main_backup.tscn
