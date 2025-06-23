@@ -1,9 +1,9 @@
-CollisionShape2D
-Sprite2D
-Area2D
-StaticBody2D
-RigidBody2D
 Node
+Sprite2D
+CollisionShape2D
+StaticBody2D
+Area2D
+RigidBody2D
 Label
 Button
 Panel
