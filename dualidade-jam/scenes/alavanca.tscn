@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bou8wxdb8uk62"]
 
-[ext_resource type="Script" uid="uid://bmcggtdyp3vpt" path="res://scenes/alavanca.gd" id="1_ay2cj"]
+[ext_resource type="Script" uid="uid://bmcggtdyp3vpt" path="res://scripts/alavanca.gd" id="1_ay2cj"]
 [ext_resource type="Texture2D" uid="uid://ch2rqvi1mjeu4" path="res://sprites/LEVER_RIGHT_2.png" id="2_ay2cj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ay2cj"]
@@ -16,5 +16,6 @@ scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_ay2cj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["interactables"]]
+visible = false
 texture_filter = 1
 shape = SubResource("RectangleShape2D_ay2cj")
