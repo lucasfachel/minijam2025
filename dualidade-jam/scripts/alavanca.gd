@@ -1,7 +1,7 @@
 extends Area2D
 
 @export var targets: Array[StaticBody2D]
-@onready var player_node: CharacterBody2D
+@onready var player_node = $"../../CharacterBody2D"
 
 var player_in_range = false
 var ativada = false

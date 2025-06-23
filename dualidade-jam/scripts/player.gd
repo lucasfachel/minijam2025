@@ -9,11 +9,11 @@ signal collided_with_object(body)
 var flipDirection = 1 #1 - Padrao // -1 - Invertido
 var isJumping = false
 
-var walkUnlocked = false
-var jumpUnlocked = false
-var eyeUnlocked = false
-var armUnlocked = false
-var flipUnlocked = false
+@export var walkUnlocked = false
+@export var jumpUnlocked = false
+@export var eyeUnlocked = false
+@export var armUnlocked = false
+@export var flipUnlocked = false
 
 
 func _physics_process(delta: float) -> void:

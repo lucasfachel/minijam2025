@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dh0m5xcswpt84"
+path="res://.godot/imported/One Man Symphony - Remnants of a Distant World (Free) - 01 Main Menu Theme.mp3-d15284cfd93403a5a2da610e7a2ddf60.mp3str"
+
+[deps]
+
+source_file="res://sprites/One Man Symphony - Remnants of a Distant World (Free) - 01 Main Menu Theme.mp3"
+dest_files=["res://.godot/imported/One Man Symphony - Remnants of a Distant World (Free) - 01 Main Menu Theme.mp3-d15284cfd93403a5a2da610e7a2ddf60.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
