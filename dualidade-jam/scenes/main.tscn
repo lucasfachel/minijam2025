@@ -155,6 +155,7 @@ sources/0 = SubResource("TileSetAtlasSource_sugp2")
 script = ExtResource("1_jyhfs")
 
 [node name="CharacterBody2D" parent="." groups=["player"] instance=ExtResource("1_o5qli")]
+visible = false
 position = Vector2(168, 296)
 SPEED = 100.0
 JUMP_VELOCITY = -300.0
