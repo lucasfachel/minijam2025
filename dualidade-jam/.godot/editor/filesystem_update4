@@ -13,3 +13,4 @@ res://scripts/moeda.gd
 res://scripts/player.gd
 res://scripts/flip_platform.gd
 res://scripts/masterController.gd
+res://scripts/shop.gd

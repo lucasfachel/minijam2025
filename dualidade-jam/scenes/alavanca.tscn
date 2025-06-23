@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://bou8wxdb8uk62"]
+[gd_scene load_steps=5 format=3 uid="uid://bou8wxdb8uk62"]
 
 [ext_resource type="Script" uid="uid://bmcggtdyp3vpt" path="res://scripts/alavanca.gd" id="1_ay2cj"]
 [ext_resource type="Texture2D" uid="uid://ch2rqvi1mjeu4" path="res://sprites/LEVER_RIGHT_2.png" id="2_ay2cj"]
+[ext_resource type="AudioStream" uid="uid://dmqw6byutiqxl" path="res://sprites/button-being-pressed-103182.mp3" id="3_enfeh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ay2cj"]
 size = Vector2(16, 16)
@@ -19,3 +20,6 @@ texture = ExtResource("2_ay2cj")
 visible = false
 texture_filter = 1
 shape = SubResource("RectangleShape2D_ay2cj")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_enfeh")

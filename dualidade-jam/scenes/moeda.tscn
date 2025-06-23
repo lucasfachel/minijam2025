@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dwtwtlmgmyll7" path="res://sprites/Moeda.png" id="1_3o5iq"]
 [ext_resource type="Script" uid="uid://c66dq3473mqh1" path="res://scripts/moeda.gd" id="1_188lh"]
-[ext_resource type="AudioStream" uid="uid://bmr54rpd3y5y8" path="res://coin-flip-88793.mp3" id="3_qxuy4"]
+[ext_resource type="AudioStream" uid="uid://c8gq7n2r6m8t2" path="res://sprites/retro-coin-4-236671.mp3" id="3_qxuy4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3o5iq"]
 size = Vector2(19.5, 19)

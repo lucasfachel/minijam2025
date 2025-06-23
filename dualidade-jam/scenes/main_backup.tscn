@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://8gbv4lqjgqjr" path="res://sprites/menu_loja-2.png.png" id="4_jjhuo"]
 [ext_resource type="PackedScene" uid="uid://cvdojxrxa5ggt" path="res://scenes/moeda.tscn" id="4_l7sk3"]
 [ext_resource type="Texture2D" uid="uid://dgi4rgmr8da2p" path="res://sprites/Moeda-13.png.png" id="4_ql3jb"]
-[ext_resource type="Texture2D" uid="uid://drg43s2tks12c" path="res://sprites/lojaSold.png" id="5_knvnm"]
+[ext_resource type="Texture2D" uid="uid://dkx0crg1irb53" path="res://sprites/lojaSold_1.png" id="5_jjhuo"]
 [ext_resource type="PackedScene" uid="uid://45ywdr2xofkt" path="res://scenes/flip_platform.tscn" id="5_ql3jb"]
 [ext_resource type="PackedScene" uid="uid://bou8wxdb8uk62" path="res://scenes/alavanca.tscn" id="6_oxlka"]
 [ext_resource type="Texture2D" uid="uid://cov6ujum5cfrx" path="res://sprites/menu_loja-3.png.png" id="6_vy5ew"]
@@ -182,34 +182,29 @@ texture = ExtResource("3_oxlka")
 
 [node name="Pernas" type="Button" parent="Camera2D/ShopWindow"]
 self_modulate = Color(1, 1, 1, 0)
+z_index = 20
 layout_mode = 0
-offset_left = 583.0
-offset_top = 73.0
-offset_right = 846.0
-offset_bottom = 121.0
+offset_left = 568.0
+offset_top = 64.0
+offset_right = 872.0
+offset_bottom = 128.0
 
 [node name="TextureRect" type="TextureRect" parent="Camera2D/ShopWindow/Pernas"]
 layout_mode = 0
-offset_left = -575.0
-offset_top = -81.0
-offset_right = 385.0
-offset_bottom = 459.0
+offset_left = 8.0
+offset_top = -16.0
+offset_right = 308.0
+offset_bottom = 84.0
 texture = ExtResource("4_jjhuo")
 
 [node name="TextureRect2" type="TextureRect" parent="Camera2D/ShopWindow/Pernas"]
 visible = false
 layout_mode = 0
-offset_left = -599.0
-offset_top = -65.0
-offset_right = 361.0
-offset_bottom = 475.0
-texture = ExtResource("5_knvnm")
-
-[node name="Label" type="Label" parent="Camera2D/ShopWindow/Pernas"]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-text = "aaaaaaaaaaaaa"
+offset_left = 24.0
+offset_top = -8.0
+offset_right = 204.0
+offset_bottom = 62.0
+texture = ExtResource("5_jjhuo")
 
 [node name="Olhos" type="Button" parent="Camera2D/ShopWindow"]
 self_modulate = Color(1, 1, 1, 0)
@@ -220,19 +215,19 @@ offset_right = 847.0
 offset_bottom = 192.0
 
 [node name="TextureRect" type="TextureRect" parent="Camera2D/ShopWindow/Olhos"]
-offset_left = -575.0
-offset_top = -145.0
-offset_right = 385.0
-offset_bottom = 395.0
+layout_mode = 0
+offset_top = -8.0
+offset_right = 300.0
+offset_bottom = 92.0
 texture = ExtResource("6_vy5ew")
 
 [node name="TextureRect2" type="TextureRect" parent="Camera2D/ShopWindow/Olhos"]
 visible = false
-offset_left = -599.0
-offset_top = -65.0
-offset_right = 361.0
-offset_bottom = 475.0
-texture = ExtResource("5_knvnm")
+offset_left = 24.0
+offset_top = -8.0
+offset_right = 204.0
+offset_bottom = 62.0
+texture = ExtResource("5_jjhuo")
 
 [node name="Olhos2" type="Button" parent="Camera2D/ShopWindow"]
 self_modulate = Color(1, 1, 1, 0)
@@ -243,42 +238,43 @@ offset_right = 839.0
 offset_bottom = 272.0
 
 [node name="TextureRect" type="TextureRect" parent="Camera2D/ShopWindow/Olhos2"]
-offset_left = -559.0
-offset_top = -216.0
-offset_right = 401.0
-offset_bottom = 324.0
+layout_mode = 0
+offset_left = 8.0
+offset_right = 308.0
+offset_bottom = 100.0
 texture = ExtResource("7_it21r")
 
 [node name="TextureRect2" type="TextureRect" parent="Camera2D/ShopWindow/Olhos2"]
 visible = false
-offset_left = -599.0
-offset_top = -65.0
-offset_right = 361.0
-offset_bottom = 475.0
-texture = ExtResource("5_knvnm")
+offset_left = 24.0
+offset_top = -8.0
+offset_right = 204.0
+offset_bottom = 62.0
+texture = ExtResource("5_jjhuo")
 
 [node name="Olhos3" type="Button" parent="Camera2D/ShopWindow"]
 self_modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 560.0
-offset_top = 296.0
-offset_right = 823.0
-offset_bottom = 344.0
+offset_left = 576.0
+offset_top = 312.0
+offset_right = 839.0
+offset_bottom = 360.0
 
 [node name="TextureRect" type="TextureRect" parent="Camera2D/ShopWindow/Olhos3"]
-offset_left = -543.0
-offset_top = -280.0
-offset_right = 417.0
-offset_bottom = 260.0
+layout_mode = 0
+offset_left = 8.0
+offset_top = -8.0
+offset_right = 308.0
+offset_bottom = 92.0
 texture = ExtResource("8_86fmw")
 
 [node name="TextureRect2" type="TextureRect" parent="Camera2D/ShopWindow/Olhos3"]
 visible = false
-offset_left = -599.0
-offset_top = -65.0
-offset_right = 361.0
-offset_bottom = 475.0
-texture = ExtResource("5_knvnm")
+offset_left = 24.0
+offset_top = -8.0
+offset_right = 204.0
+offset_bottom = 62.0
+texture = ExtResource("5_jjhuo")
 
 [node name="Olhos4" type="Button" parent="Camera2D/ShopWindow"]
 self_modulate = Color(1, 1, 1, 0)
@@ -289,19 +285,19 @@ offset_right = 831.0
 offset_bottom = 432.0
 
 [node name="TextureRect" type="TextureRect" parent="Camera2D/ShopWindow/Olhos4"]
-offset_left = -543.0
-offset_top = -344.0
-offset_right = 417.0
-offset_bottom = 196.0
+layout_mode = 0
+offset_top = -8.0
+offset_right = 300.0
+offset_bottom = 92.0
 texture = ExtResource("9_jng3h")
 
 [node name="TextureRect2" type="TextureRect" parent="Camera2D/ShopWindow/Olhos4"]
 visible = false
-offset_left = -599.0
-offset_top = -65.0
-offset_right = 361.0
-offset_bottom = 475.0
-texture = ExtResource("5_knvnm")
+offset_left = 24.0
+offset_top = -8.0
+offset_right = 204.0
+offset_bottom = 62.0
+texture = ExtResource("5_jjhuo")
 
 [node name="Shop" parent="." instance=ExtResource("3_0lt4g")]
 position = Vector2(64, 290)
