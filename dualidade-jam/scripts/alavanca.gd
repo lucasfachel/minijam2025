@@ -1,6 +1,7 @@
 extends Area2D
 
 @export var targets: Array[StaticBody2D]
+@onready var player_node: CharacterBody2D
 
 var player_in_range = false
 var ativada = false
@@ -27,7 +28,7 @@ func _on_body_exited(body: Node2D):
 		print("Player saiu da área da Alavanca: ", name)
 
 func interact_with_player(body_that_collided):
-	if player_in_range:
+	if player_in_range and player_node.armUnlocked:
 		print("Alavanca '" + name + "' detectou interação do Player.")
 		scale.x *= -1
 		for target in targets:

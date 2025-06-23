@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b132afwmq8cg6"
-path="res://.godot/imported/LEVER_RIGHT_1.png-08dbbbbcc785c36ca33ee9b29a9d1620.ctex"
+uid="uid://b0u5e3lyiejqq"
+path="res://.godot/imported/menu_loja-6.png.png-1d269deac07efcd808cae1a765184c60.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/LEVER_RIGHT_1.png"
-dest_files=["res://.godot/imported/LEVER_RIGHT_1.png-08dbbbbcc785c36ca33ee9b29a9d1620.ctex"]
+source_file="res://sprites/menu_loja-6.png.png"
+dest_files=["res://.godot/imported/menu_loja-6.png.png-1d269deac07efcd808cae1a765184c60.ctex"]
 
 [params]
 

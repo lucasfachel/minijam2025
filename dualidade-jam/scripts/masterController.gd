@@ -14,7 +14,16 @@ func closeShop():
 	shopWindow.visible = false
 	
 func unlockLegs():
-	player.jumpUnlocked = true
+	player.walkUnlocked = true
 	
 func unlockEyes():
 	player.get_child(2).visible = false
+
+func unlockJump():
+	player.jumpUnlocked = true
+	
+func unlockSoul():
+	player.flipUnlocked = true
+
+func unlockArm():
+	player.armUnlocked = true

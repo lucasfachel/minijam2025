@@ -1,6 +1,4 @@
-res://scenes/gate.tscn
-res://scenes/main.tscn
-res://scenes/alavanca.tscn
+res://scenes/main_backup.tscn
 res://scenes/main_menu.tscn
 res://scenes/player.tscn
 res://scenes/shop.tscn
@@ -8,9 +6,10 @@ res://scenes/caixa.tscn
 res://scenes/moeda.tscn
 res://scenes/flip_platform.tscn
 res://scenes/plataforma_fina.tscn
-res://scenes/alavancaSPAWN.tscn
-res://scenes/alavanca.gd
-res://scenes/main_backup.tscn
-res://scenes/plataforma.tscn
-res://scenes/plataforma.gd
-res://scenes/plataformaMenor.tscn
+res://scenes/alavanca.tscn
+res://scenes/main.tscn
+res://scripts/alavanca.gd
+res://scripts/moeda.gd
+res://scripts/player.gd
+res://scripts/flip_platform.gd
+res://scripts/masterController.gd

@@ -1,14 +1,14 @@
+Label
+TextureRect
+AudioStreamPlayer2D
 Node
 Sprite2D
 CollisionShape2D
 StaticBody2D
 Area2D
 RigidBody2D
-Label
 Button
 Panel
 CanvasLayer
 AnimatedSprite2D
 TileMap
-Camera2D
-MeshInstance2D

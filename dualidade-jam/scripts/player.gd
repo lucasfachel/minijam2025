@@ -9,7 +9,11 @@ signal collided_with_object(body)
 var flipDirection = 1 #1 - Padrao // -1 - Invertido
 var isJumping = false
 
-var jumpUnlocked = true
+var walkUnlocked = false
+var jumpUnlocked = false
+var eyeUnlocked = false
+var armUnlocked = false
+var flipUnlocked = false
 
 
 func _physics_process(delta: float) -> void:
@@ -45,13 +49,14 @@ func _physics_process(delta: float) -> void:
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction := Input.get_axis("move_l", "move_r")
-	if direction:
-		velocity.x = direction * SPEED
-		if not isJumping: animator.play("run")
-		animator.flip_h = direction * flipDirection < 0
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-		if not isJumping: animator.play("idle")
+	if walkUnlocked:
+		if direction:
+			velocity.x = direction * SPEED
+			if not isJumping: animator.play("run")
+			animator.flip_h = direction * flipDirection < 0
+		else:
+			velocity.x = move_toward(velocity.x, 0, SPEED)
+			if not isJumping: animator.play("idle")
 	
 	move_and_slide()
 	var push_threshold_velocity: float = 100.0 

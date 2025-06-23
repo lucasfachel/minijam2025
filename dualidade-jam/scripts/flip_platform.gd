@@ -35,7 +35,7 @@ func _on_area_bot_exited(body) -> void:
 	ativoBot = false
 
 func interact_with_player(body_that_collided):
-	if (ativoTop and player.flipDirection == 1) or (ativoBot and player.flipDirection == -1):
+	if ((ativoTop and player.flipDirection == 1) or (ativoBot and player.flipDirection == -1)) and player.flipUnlocked:
 		flipPlayer()
 		print("Player interagiu com ESTE objeto: ", name)
 
