@@ -28,6 +28,8 @@ func unlockSoul():
 func unlockArm():
 	player.armUnlocked = true
 
+func end():
+	get_tree().change_scene_to_file("res://scenes/end.tscn")
 
 func _on_audio_stream_player_2d_finished() -> void:
 	$AudioStreamPlayer2D.play()
