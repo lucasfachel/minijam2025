@@ -23,3 +23,4 @@ shape = SubResource("RectangleShape2D_ay2cj")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_enfeh")
+volume_db = 2.0

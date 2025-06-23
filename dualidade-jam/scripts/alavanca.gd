@@ -30,6 +30,7 @@ func _on_body_exited(body: Node2D):
 func interact_with_player(body_that_collided):
 	if player_in_range and player_node.armUnlocked:
 		print("Alavanca '" + name + "' detectou interação do Player.")
+		$AudioStreamPlayer2D.play()
 		scale.x *= -1
 		for target in targets:
 			target.visible = not target.visible

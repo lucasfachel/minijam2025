@@ -1,10 +1,6 @@
-res://scenes/main_backup.tscn
-res://scenes/player.tscn
 res://scenes/shop.tscn
-res://scenes/caixa.tscn
-res://scenes/moeda.tscn
-res://scenes/flip_platform.tscn
-res://scenes/plataforma_fina.tscn
+res://scenes/main_backup.tscn
 res://scenes/alavanca.tscn
-res://scenes/main.tscn
-res://scenes/plataformaMenor.tscn
+res://scripts/alavanca.gd
+res://scripts/masterController.gd
+res://scenes/end_game.gd

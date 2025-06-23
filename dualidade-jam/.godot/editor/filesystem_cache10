@@ -1,34 +1,34 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750657159
-button_theme.tres::Theme/Theme::928236092485265310::1750430945::0::1::::<><><>0<>0<><>::
+::res://::1750657397
+button_theme.tres::Theme::928236092485265310::1750430945::0::1::::<><><>0<>0<><>::
 coin-flip-88793.mp3::AudioStreamMP3/AudioStreamMP3::3265655443218462953::1750648883::1750648883::1::::<><><>0<>0<>37a20f06d8ef4e2d60941204fd95a3d6<>res://.godot/imported/coin-flip-88793.mp3-876cc0e2881500cecee926e262e0691a.mp3str::
-export_presets.cfg::TextFile/TextFile::-1::1750654512::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1750654512::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::4238379311929131723::1750448109::1750448264::1::::<><><>0<>0<>0f3614eac191b25e72a037831553ebe9<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://scenes/::1750655066
+::res://scenes/::1750657240
 alavanca.tscn::PackedScene::3412396210695750769::1750654315::0::1::::<><><>0<>0<><>::uid://bmcggtdyp3vpt::::res://scripts/alavanca.gd<>uid://ch2rqvi1mjeu4::::res://sprites/LEVER_RIGHT_2.png<>uid://dmqw6byutiqxl::::res://sprites/button-being-pressed-103182.mp3
-Area_2.gd::GDScript/GDScript::8073153457874631650::1750630412::0::1::::<>Area2D<><>0<>0<><>::
+Area_2.gd::GDScript::8073153457874631650::1750630412::0::1::::<>Area2D<><>0<>0<><>::
 caixa.tscn::PackedScene::6432898378019458894::1750654315::0::1::::<><><>0<>0<><>::uid://23r0e3y3udrk::::res://sprites/New Piskel-6.png.png<>uid://2g4oilc1f526::::res://scripts/caixa.gd
-end.tscn::PackedScene::1515313750954661404::1750655014::0::1::::<><><>0<>0<><>::uid://dul7pamwp0gr6::::res://sprites/end.png
+end.tscn::PackedScene/PackedScene::1515313750954661404::1750655014::0::1::::<><><>0<>0<><>::uid://dul7pamwp0gr6::::res://sprites/end.png
 flip_platform.tscn::PackedScene::2098904478506809339::1750654315::0::1::::<><><>0<>0<><>::uid://bevdhrk03jom::::res://scripts/flip_platform.gd<>uid://cyp7uhsd5mejw::::res://sprites/MIRROR_PLATFORM.png
-gate.tscn::PackedScene/PackedScene::9060072128310978928::1750647554::0::1::::<><><>0<>0<><>::uid://c4gbtrnlsmkih::::res://sprites/GATE.png
-main.tscn::PackedScene::6328358224794016861::1750654315::0::1::::<><><>0<>0<><>::uid://dk4sn1y14lf7::::res://scripts/masterController.gd<>uid://clljfpt7ailvb::::res://scenes/player.tscn<>uid://hgndgc6wtyd1::::res://sprites/New Piskel-2.png (2).png<>uid://cvdojxrxa5ggt::::res://scenes/moeda.tscn<>uid://c6h5taipend0n::::res://scenes/shop.tscn<>uid://d2c1cgjxgoruu::::res://scenes/gate.tscn<>uid://45ywdr2xofkt::::res://scenes/flip_platform.tscn<>uid://ru26mu0c8mqj::::res://scenes/plataforma.tscn<>uid://dnaxwmuas1eog::::res://scenes/Area_2.gd<>uid://bou8wxdb8uk62::::res://scenes/alavanca.tscn<>uid://dn3moroc01tua::::res://scenes/plataformaMenor.tscn
-main_backup.tscn::PackedScene::4158116164701250278::1750655066::0::1::::<><><>0<>0<><>::uid://dk4sn1y14lf7::::res://scripts/masterController.gd<>uid://clljfpt7ailvb::::res://scenes/player.tscn<>uid://c6h5taipend0n::::res://scenes/shop.tscn<>uid://b7y3iyqysr1kd::::res://sprites/menu_loja.png<>uid://8gbv4lqjgqjr::::res://sprites/menu_loja-2.png.png<>uid://cvdojxrxa5ggt::::res://scenes/moeda.tscn<>uid://dgi4rgmr8da2p::::res://sprites/Moeda-13.png.png<>uid://dkx0crg1irb53::::res://sprites/lojaSold_1.png<>uid://45ywdr2xofkt::::res://scenes/flip_platform.tscn<>uid://dhs1vec76bmjf::::res://sprites/menu_loja-4.png_1.png<>uid://bou8wxdb8uk62::::res://scenes/alavanca.tscn<>uid://dss3hjwvbp3qh::::res://scenes/plataforma_fina.tscn<>uid://c52sdnrxpqcnm::::res://sprites/menu_loja-3.png_1.png<>uid://dl75mm8k8aerb::::res://sprites/menu_loja-5.png.png<>uid://d2c1cgjxgoruu::::res://scenes/gate.tscn<>uid://dnaxwmuas1eog::::res://scenes/Area_2.gd<>uid://b0u5e3lyiejqq::::res://sprites/menu_loja-6.png.png<>uid://hgndgc6wtyd1::::res://sprites/New Piskel-2.png (2).png<>uid://ru26mu0c8mqj::::res://scenes/plataforma.tscn<>uid://dn3moroc01tua::::res://scenes/plataformaMenor.tscn<>uid://dh0m5xcswpt84::::res://sprites/One Man Symphony - Remnants of a Distant World (Free) - 01 Main Menu Theme.mp3
+gate.tscn::PackedScene::9060072128310978928::1750647554::0::1::::<><><>0<>0<><>::uid://c4gbtrnlsmkih::::res://sprites/GATE.png
+main.tscn::PackedScene::6328358224794016861::1750657240::0::1::::<><><>0<>0<><>::uid://dk4sn1y14lf7::::res://scripts/masterController.gd<>uid://clljfpt7ailvb::::res://scenes/player.tscn<>uid://hgndgc6wtyd1::::res://sprites/New Piskel-2.png (2).png<>uid://cvdojxrxa5ggt::::res://scenes/moeda.tscn<>uid://c6h5taipend0n::::res://scenes/shop.tscn<>uid://d2c1cgjxgoruu::::res://scenes/gate.tscn<>uid://45ywdr2xofkt::::res://scenes/flip_platform.tscn<>uid://ru26mu0c8mqj::::res://scenes/plataforma.tscn<>uid://dnaxwmuas1eog::::res://scenes/Area_2.gd<>uid://bou8wxdb8uk62::::res://scenes/alavanca.tscn<>uid://dn3moroc01tua::::res://scenes/plataformaMenor.tscn
+main_backup.tscn::PackedScene::4158116164701250278::1750657240::0::1::::<><><>0<>0<><>::uid://dk4sn1y14lf7::::res://scripts/masterController.gd<>uid://clljfpt7ailvb::::res://scenes/player.tscn<>uid://c6h5taipend0n::::res://scenes/shop.tscn<>uid://b7y3iyqysr1kd::::res://sprites/menu_loja.png<>uid://8gbv4lqjgqjr::::res://sprites/menu_loja-2.png.png<>uid://cvdojxrxa5ggt::::res://scenes/moeda.tscn<>uid://dgi4rgmr8da2p::::res://sprites/Moeda-13.png.png<>uid://dkx0crg1irb53::::res://sprites/lojaSold_1.png<>uid://45ywdr2xofkt::::res://scenes/flip_platform.tscn<>uid://dhs1vec76bmjf::::res://sprites/menu_loja-4.png_1.png<>uid://bou8wxdb8uk62::::res://scenes/alavanca.tscn<>uid://dss3hjwvbp3qh::::res://scenes/plataforma_fina.tscn<>uid://c52sdnrxpqcnm::::res://sprites/menu_loja-3.png_1.png<>uid://dl75mm8k8aerb::::res://sprites/menu_loja-5.png.png<>uid://d2c1cgjxgoruu::::res://scenes/gate.tscn<>uid://dnaxwmuas1eog::::res://scenes/Area_2.gd<>uid://b0u5e3lyiejqq::::res://sprites/menu_loja-6.png.png<>uid://hgndgc6wtyd1::::res://sprites/New Piskel-2.png (2).png<>uid://ru26mu0c8mqj::::res://scenes/plataforma.tscn<>uid://dn3moroc01tua::::res://scenes/plataformaMenor.tscn<>uid://dh0m5xcswpt84::::res://sprites/One Man Symphony - Remnants of a Distant World (Free) - 01 Main Menu Theme.mp3
 main_menu.tscn::PackedScene::6485644597415146258::1750651968::0::1::::<><><>0<>0<><>::uid://23r0e3y3udrk::::res://sprites/New Piskel-6.png.png<>uid://nhv6bhytlvd3::::res://button_theme.tres<>uid://cr0rntlppv3vs::::res://sprites/ZTART.png
-menu.gd::GDScript/GDScript::2053625656476684795::1750651986::0::1::::<>TextureRect<><>0<>0<><>::
+menu.gd::GDScript::2053625656476684795::1750651986::0::1::::<>TextureRect<><>0<>0<><>::
 moeda.tscn::PackedScene::6253867562435865479::1750654315::0::1::::<><><>0<>0<><>::uid://dwtwtlmgmyll7::::res://sprites/Moeda.png<>uid://c66dq3473mqh1::::res://scripts/moeda.gd<>uid://c8gq7n2r6m8t2::::res://sprites/retro-coin-4-236671.mp3
-plataforma.tscn::PackedScene/PackedScene::1236193277659652129::1750647554::0::1::::<><><>0<>0<><>::uid://nhscq8t4jjkl::::res://scripts/plataforma.gd<>uid://k3gbfj4e736q::::res://sprites/plataforma.png
-plataformaMenor.tscn::PackedScene/PackedScene::8130274115164802068::1750647554::0::1::::<><><>0<>0<><>::uid://nhscq8t4jjkl::::res://scripts/plataforma.gd<>uid://dmovueehscg2s::::res://sprites/plataforma2.png
+plataforma.tscn::PackedScene::1236193277659652129::1750647554::0::1::::<><><>0<>0<><>::uid://nhscq8t4jjkl::::res://scripts/plataforma.gd<>uid://k3gbfj4e736q::::res://sprites/plataforma.png
+plataformaMenor.tscn::PackedScene::8130274115164802068::1750647554::0::1::::<><><>0<>0<><>::uid://nhscq8t4jjkl::::res://scripts/plataforma.gd<>uid://dmovueehscg2s::::res://sprites/plataforma2.png
 plataforma_fina.tscn::PackedScene::8461533120143708479::1750654315::0::1::::<><><>0<>0<><>::uid://cgckjqblbb60w::::res://sprites/THIN_PLATFORM.png
 player.tscn::PackedScene::5568183003259436023::1750654315::0::1::::<><><>0<>0<><>::uid://bcqck4f6jbsga::::res://scripts/player.gd<>uid://cy4asp64bkc7h::::res://sprites/fudido.png<>uid://dfuubhy5q6hiq::::res://sprites/BlindMask.png
 shop.tscn::PackedScene::6965001617356638707::1750654315::0::1::::<><><>0<>0<><>::uid://cr0fxxkm7samu::::res://sprites/sus shop-1.png.png<>uid://bsb5lcvr3hq5u::::res://scripts/shop.gd
 ::res://scripts/::1750655066
 alavanca.gd::GDScript::3233191583267323893::1750654313::0::1::::<>Area2D<><>0<>0<><>::
-caixa.gd::GDScript/GDScript::1909271275961626485::1750625404::0::1::::<>RigidBody2D<><>0<>0<><>::
+caixa.gd::GDScript::1909271275961626485::1750625404::0::1::::<>RigidBody2D<><>0<>0<><>::
 flip_platform.gd::GDScript::79727163298082044::1750649895::0::1::::<>StaticBody2D<><>0<>0<><>::
-global_data.gd::GDScript/GDScript::3257704694991919309::1750462045::0::1::::<>Node<><>0<>0<><>::
+global_data.gd::GDScript::3257704694991919309::1750462045::0::1::::<>Node<><>0<>0<><>::
 masterController.gd::GDScript::233003969630024830::1750655066::0::1::::<>Node2D<><>0<>0<><>::
 moeda.gd::GDScript::7012903471166810280::1750648981::0::1::::<>Area2D<><>0<>0<><>::
-plataforma.gd::GDScript/GDScript::-1::1750647355::0::1::::<>StaticBody2D<><>0<>0<><>::
+plataforma.gd::GDScript::928002981284984891::1750647355::0::1::::<>StaticBody2D<><>0<>0<><>::
 player.gd::GDScript::2559969239280465868::1750654199::0::1::::<>CharacterBody2D<><>0<>0<><>::
 shop.gd::GDScript::3653725538745398824::1750654128::0::1::::<>Area2D<><>0<>0<><>::
 ::res://sprites/::1750654996
@@ -62,66 +62,3 @@ retro-coin-4-236671.mp3::AudioStreamMP3/AudioStreamMP3::7102488816582459733::175
 sus shop-1.png.png::CompressedTexture2D/CompressedTexture2D::6018007035381685180::1750463507::1750463507::1::::<><><>0<>0<>de85d6c9ab4ca6573c45c0ea1c29f7e3<>res://.godot/imported/sus shop-1.png.png-bec6a4e0431a3d3eeeb435e80e4e2226.ctex::
 THIN_PLATFORM.png::CompressedTexture2D/CompressedTexture2D::5198727269214933404::1750638100::1750638101::1::::<><><>0<>0<>76aaf7ed32d0ffd277ea7bbd5fb04562<>res://.godot/imported/THIN_PLATFORM.png-98ecd2b188a4fd775256ed554dd786b3.ctex::
 ZTART.png::CompressedTexture2D/CompressedTexture2D::6018717572920976772::1750651913::1750651914::1::::<><><>0<>0<>8632620431bbb184c473a229e79d132d<>res://.godot/imported/ZTART.png-8ae1113a964418d2ab643a74da91a1d7.ctex::
-::res://::1750654553
-button_theme.tres::Theme::928236092485265310::1750448344::0::1::::<><><>0<>0<><>::
-coin-flip-88793.mp3::AudioStreamMP3/AudioStreamMP3::3265655443218462953::1750651047::1750654554::1::::<><><>0<>0<>37a20f06d8ef4e2d60941204fd95a3d6<>res://.godot/imported/coin-flip-88793.mp3-876cc0e2881500cecee926e262e0691a.mp3str::
-export_presets.cfg::TextFile::-1::1750652608::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D/CompressedTexture2D::4238379311929131723::1750447662::1750457066::1::::<><><>0<>0<>0f3614eac191b25e72a037831553ebe9<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://scenes/::1750654537
-alavanca.tscn::PackedScene::3412396210695750769::1750654535::0::1::::<><><>0<>0<><>::uid://bmcggtdyp3vpt::::res://scripts/alavanca.gd<>uid://ch2rqvi1mjeu4::::res://sprites/LEVER_RIGHT_2.png<>uid://dmqw6byutiqxl::::res://sprites/button-being-pressed-103182.mp3
-Area_2.gd::GDScript::8073153457874631650::1750633954::0::1::::<>Area2D<><>0<>0<><>::
-caixa.tscn::PackedScene::6432898378019458894::1750652638::0::1::::<><><>0<>0<><>::uid://23r0e3y3udrk::::res://sprites/New Piskel-6.png.png<>uid://2g4oilc1f526::::res://scripts/caixa.gd
-flip_platform.tscn::PackedScene::2098904478506809339::1750654535::0::1::::<><><>0<>0<><>::uid://bevdhrk03jom::::res://scripts/flip_platform.gd<>uid://cyp7uhsd5mejw::::res://sprites/MIRROR_PLATFORM.png
-gate.tscn::PackedScene::9060072128310978928::1750650449::0::1::::<><><>0<>0<><>::uid://c4gbtrnlsmkih::::res://sprites/GATE.png
-main.tscn::PackedScene::6328358224794016861::1750654535::0::1::::<><><>0<>0<><>::uid://dk4sn1y14lf7::::res://scripts/masterController.gd<>uid://clljfpt7ailvb::::res://scenes/player.tscn<>uid://hgndgc6wtyd1::::res://sprites/New Piskel-2.png (2).png<>uid://cvdojxrxa5ggt::::res://scenes/moeda.tscn<>uid://c6h5taipend0n::::res://scenes/shop.tscn<>uid://d2c1cgjxgoruu::::res://scenes/gate.tscn<>uid://45ywdr2xofkt::::res://scenes/flip_platform.tscn<>uid://ru26mu0c8mqj::::res://scenes/plataforma.tscn<>uid://dnaxwmuas1eog::::res://scenes/Area_2.gd<>uid://bou8wxdb8uk62::::res://scenes/alavanca.tscn<>uid://dn3moroc01tua::::res://scenes/plataformaMenor.tscn
-main_backup.tscn::PackedScene::4158116164701250278::1750654537::0::1::::<><><>0<>0<><>::uid://dk4sn1y14lf7::::res://scripts/masterController.gd<>uid://clljfpt7ailvb::::res://scenes/player.tscn<>uid://c6h5taipend0n::::res://scenes/shop.tscn<>uid://b7y3iyqysr1kd::::res://sprites/menu_loja.png<>uid://8gbv4lqjgqjr::::res://sprites/menu_loja-2.png.png<>uid://cvdojxrxa5ggt::::res://scenes/moeda.tscn<>uid://dgi4rgmr8da2p::::res://sprites/Moeda-13.png.png<>uid://dkx0crg1irb53::::res://sprites/lojaSold_1.png<>uid://45ywdr2xofkt::::res://scenes/flip_platform.tscn<>uid://dhs1vec76bmjf::::res://sprites/menu_loja-4.png_1.png<>uid://bou8wxdb8uk62::::res://scenes/alavanca.tscn<>uid://dss3hjwvbp3qh::::res://scenes/plataforma_fina.tscn<>uid://c52sdnrxpqcnm::::res://sprites/menu_loja-3.png_1.png<>uid://dl75mm8k8aerb::::res://sprites/menu_loja-5.png.png<>uid://d2c1cgjxgoruu::::res://scenes/gate.tscn<>uid://dnaxwmuas1eog::::res://scenes/Area_2.gd<>uid://b0u5e3lyiejqq::::res://sprites/menu_loja-6.png.png<>uid://hgndgc6wtyd1::::res://sprites/New Piskel-2.png (2).png<>uid://ru26mu0c8mqj::::res://scenes/plataforma.tscn<>uid://dn3moroc01tua::::res://scenes/plataformaMenor.tscn<>uid://dh0m5xcswpt84::::res://sprites/One Man Symphony - Remnants of a Distant World (Free) - 01 Main Menu Theme.mp3
-main_menu.tscn::PackedScene::6485644597415146258::1750654535::0::1::::<><><>0<>0<><>::uid://23r0e3y3udrk::::res://sprites/New Piskel-6.png.png<>uid://nhv6bhytlvd3::::res://button_theme.tres<>uid://cr0rntlppv3vs::::res://sprites/ZTART.png
-menu.gd::GDScript::2053625656476684795::1750652608::0::1::::<>TextureRect<><>0<>0<><>::
-moeda.tscn::PackedScene::6253867562435865479::1750654535::0::1::::<><><>0<>0<><>::uid://dwtwtlmgmyll7::::res://sprites/Moeda.png<>uid://c66dq3473mqh1::::res://scripts/moeda.gd<>uid://c8gq7n2r6m8t2::::res://sprites/retro-coin-4-236671.mp3
-plataforma.tscn::PackedScene::1236193277659652129::1750648184::0::1::::<><><>0<>0<><>::uid://nhscq8t4jjkl::::res://scripts/plataforma.gd<>uid://k3gbfj4e736q::::res://sprites/plataforma.png
-plataformaMenor.tscn::PackedScene::8130274115164802068::1750648184::0::1::::<><><>0<>0<><>::uid://nhscq8t4jjkl::::res://scripts/plataforma.gd<>uid://dmovueehscg2s::::res://sprites/plataforma2.png
-plataforma_fina.tscn::PackedScene::8461533120143708479::1750654535::0::1::::<><><>0<>0<><>::uid://cgckjqblbb60w::::res://sprites/THIN_PLATFORM.png
-player.tscn::PackedScene::5568183003259436023::1750654537::0::1::::<><><>0<>0<><>::uid://bcqck4f6jbsga::::res://scripts/player.gd<>uid://cy4asp64bkc7h::::res://sprites/fudido.png<>uid://dfuubhy5q6hiq::::res://sprites/BlindMask.png
-shop.tscn::PackedScene::6965001617356638707::1750652638::0::1::::<><><>0<>0<><>::uid://cr0fxxkm7samu::::res://sprites/sus shop-1.png.png<>uid://bsb5lcvr3hq5u::::res://scripts/shop.gd
-::res://scripts/::1750654537
-alavanca.gd::GDScript::3233191583267323893::1750654537::0::1::::<>Area2D<><>0<>0<><>::
-caixa.gd::GDScript::1909271275961626485::1750564181::0::1::::<>RigidBody2D<><>0<>0<><>::
-flip_platform.gd::GDScript::79727163298082044::1750651047::0::1::::<>StaticBody2D<><>0<>0<><>::
-global_data.gd::GDScript::3257704694991919309::1750459892::0::1::::<>Node<><>0<>0<><>::
-masterController.gd::GDScript::233003969630024830::1750654537::0::1::::<>Node2D<><>0<>0<><>::
-moeda.gd::GDScript::7012903471166810280::1750651047::0::1::::<>Area2D<><>0<>0<><>::
-plataforma.gd::GDScript::928002981284984891::1750643987::0::1::::<>StaticBody2D<><>0<>0<><>::
-player.gd::GDScript::2559969239280465868::1750654537::0::1::::<>CharacterBody2D<><>0<>0<><>::
-shop.gd::GDScript::3653725538745398824::1750654537::0::1::::<>Area2D<><>0<>0<><>::
-::res://sounds/::1750652595
-::res://sprites/::1750654538
-BlindMask.png::CompressedTexture2D/CompressedTexture2D::7552710356124322676::1750654537::1750548691::1::::<><><>0<>0<>f6c1d233417301dccaec44b99f58c1a5<>res://.godot/imported/BlindMask.png-4b7f4eceeb4395032da628bcfd4ac93a.ctex::
-button-being-pressed-103182.mp3::AudioStreamMP3/AudioStreamMP3::8035949442785650889::1750652608::1750654554::1::::<><><>0<>0<>e7cae282f680737b7498421854e4478d<>res://.godot/imported/button-being-pressed-103182.mp3-7c8db2b2bc67f6ca9fe949635ab5225d.mp3str::
-fudido.png::CompressedTexture2D/CompressedTexture2D::6517273550915550095::1750466181::1750541897::1::::<><><>0<>0<>9c3caa98da9450ec84b563553284b88b<>res://.godot/imported/fudido.png-9ab363e1f166af48333c53fa1a6eaddc.ctex::
-GATE.png::CompressedTexture2D/CompressedTexture2D::6820799659994196447::1750640510::1750640510::1::::<><><>0<>0<>3c8f7941ea6b520f8b0319ac1ed30b68<>res://.godot/imported/GATE.png-69becb4f1b15505a5bbf567caac10d21.ctex::
-LEVER_RIGHT_2.png::CompressedTexture2D/CompressedTexture2D::5320963350338055453::1750639959::1750640013::1::::<><><>0<>0<>67779965175a71d24595e9c6ebd413aa<>res://.godot/imported/LEVER_RIGHT_2.png-6b56bee3b99dcab5fffc52b60cdf5323.ctex::
-lojaSold.png::CompressedTexture2D/CompressedTexture2D::8366670442477173584::1750651047::1750654555::1::::<><><>0<>0<>64a2a93aa8c9e72d9e080bd50ab3145a<>res://.godot/imported/lojaSold.png-1a1ef1e981fc1e463442f96f5ac63f2c.ctex::
-lojaSold_1.png::CompressedTexture2D/CompressedTexture2D::7910153575568434276::1750652608::1750654555::1::::<><><>0<>0<>cec80788230ec559ba62822ac1bf2363<>res://.godot/imported/lojaSold_1.png-df54c0b5bd188cfb9634053707608571.ctex::
-menu_loja-2.png.png::CompressedTexture2D/CompressedTexture2D::2328717866153447811::1750652608::1750654555::1::::<><><>0<>0<>968e6cffd3a402b7b455108ade3954cd<>res://.godot/imported/menu_loja-2.png.png-9719ab67108b09f38914033e5c7b974b.ctex::
-menu_loja-3.png.png::CompressedTexture2D/CompressedTexture2D::5800755557999408861::1750652608::1750654555::1::::<><><>0<>0<>12adc2c019cbe1b2962397aac9f8b56a<>res://.godot/imported/menu_loja-3.png.png-1094ae82020f1942130dbd9913ff209c.ctex::
-menu_loja-3.png_1.png::CompressedTexture2D/CompressedTexture2D::6935343849269216990::1750654538::1750654555::1::::<><><>0<>0<>5247ab6328dc7b0ee56ffeb030b33a9a<>res://.godot/imported/menu_loja-3.png_1.png-9f85e6ff4987ea3d15b4ca3a40920b2e.ctex::
-menu_loja-4.png.png::CompressedTexture2D/CompressedTexture2D::3951948141641391258::1750652608::1750654555::1::::<><><>0<>0<>2052cc9eb1644fe43b103629c56dd7e9<>res://.godot/imported/menu_loja-4.png.png-bfa3d2cef87b3a4089e95ee55bbe4440.ctex::
-menu_loja-4.png_1.png::CompressedTexture2D/CompressedTexture2D::7689359114280959583::1750654538::1750654555::1::::<><><>0<>0<>5ae6c6021f2f9555b058d8089af6345e<>res://.godot/imported/menu_loja-4.png_1.png-f1d1e302204798f2222dbb17f8da25ff.ctex::
-menu_loja-5.png.png::CompressedTexture2D/CompressedTexture2D::7999243040294630883::1750652608::1750654555::1::::<><><>0<>0<>be16f65f8290d73b3a31de7fa35b0672<>res://.godot/imported/menu_loja-5.png.png-66e24b6495b2afc1ea4c01eb2fca627a.ctex::
-menu_loja-6.png.png::CompressedTexture2D/CompressedTexture2D::4184259471431681332::1750652608::1750654555::1::::<><><>0<>0<>018bb7233c042e5ec2b780309a7f2565<>res://.godot/imported/menu_loja-6.png.png-1d269deac07efcd808cae1a765184c60.ctex::
-menu_loja.png::CompressedTexture2D/CompressedTexture2D::4683724394748749031::1750651047::1750654555::1::::<><><>0<>0<>b800b04c818d4ddf456ee760a5c556ad<>res://.godot/imported/menu_loja.png-20c1e3ea1469c7f3db5a98897b14782e.ctex::
-MIRROR_PLATFORM.png::CompressedTexture2D/CompressedTexture2D::6490318336303304184::1750639959::1750640013::1::::<><><>0<>0<>cbd55b659179eb34991ccac71ba30a8c<>res://.godot/imported/MIRROR_PLATFORM.png-455ad98ebc3feef41a104a63c8667547.ctex::
-Moeda-13.png.png::CompressedTexture2D/CompressedTexture2D::7598701620720960365::1750651047::1750654555::1::::<><><>0<>0<>5505c391d55f587d0911a60be30d581a<>res://.godot/imported/Moeda-13.png.png-6ff94e9a014f22d3cb0d8c8b4e9f1f01.ctex::
-Moeda.png::CompressedTexture2D/CompressedTexture2D::8744010088952316162::1750457034::1750457066::1::::<><><>0<>0<>0a9186c29166dfb70a718f38a4c80d91<>res://.godot/imported/Moeda.png-dfbcfbb3fb1333f69a97cc2472ba5f30.ctex::
-New Piskel (1).png::CompressedTexture2D/CompressedTexture2D::5224314593263714505::1750562035::1750562036::1::::<><><>0<>0<>37620b564018a62dae3e5edf8e8131cf<>res://.godot/imported/New Piskel (1).png-b2d13f1f679b6656a3a3fd0260412ec4.ctex::
-New Piskel-2.png (1).png::CompressedTexture2D/CompressedTexture2D::984063831501656260::1750457034::1750457066::1::::<><><>0<>0<>60a1ba1dcd3fc8bb7c896b1dabd9cc29<>res://.godot/imported/New Piskel-2.png (1).png-afcdf86fa0bbf24263fc00d467cc29c9.ctex::
-New Piskel-2.png (2).png::CompressedTexture2D/CompressedTexture2D::504503169946645944::1750457034::1750457066::1::::<><><>0<>0<>eae503dc024007a281daa16da8e4b43d<>res://.godot/imported/New Piskel-2.png (2).png-95bfa4b0a1df333731d0ab7bfc7f8265.ctex::
-New Piskel-6.png.png::CompressedTexture2D/CompressedTexture2D::1953978443541782328::1750457034::1750457066::1::::<><><>0<>0<>0df6b6f1c2f36d7fb03ca5ff07f4f628<>res://.godot/imported/New Piskel-6.png.png-a0d9ff0562197cbfaf6c221c81d7240f.ctex::
-One Man Symphony - Remnants of a Distant World (Free) - 01 Main Menu Theme.mp3::AudioStreamMP3/AudioStreamMP3::7702976790101880547::1750654537::1750654555::1::::<><><>0<>0<>c421445ecd33ffdbe623c08f4c9f34e5<>res://.godot/imported/One Man Symphony - Remnants of a Distant World (Free) - 01 Main Menu Theme.mp3-d15284cfd93403a5a2da610e7a2ddf60.mp3str::
-plataforma2.png::CompressedTexture2D/CompressedTexture2D::8031740452633529040::1750645651::1750645652::1::::<><><>0<>0<>14c9917266f207c6f7614d42e67f0274<>res://.godot/imported/plataforma2.png-bf3544c861a8083e87e7414e4a5bc3a4.ctex::
-plataforma.png::CompressedTexture2D/CompressedTexture2D::760057379088755518::1750642857::1750642858::1::::<><><>0<>0<>7e85dfc468a678d87dd881f468b6fda8<>res://.godot/imported/plataforma.png-3f82d8ac213601855c75ff8d146cc2bd.ctex::
-retro-coin-4-236671.mp3::AudioStreamMP3/AudioStreamMP3::7102488816582459733::1750652608::1750654554::1::::<><><>0<>0<>a7ee8d40717d414eb7ac9b128302f9d2<>res://.godot/imported/retro-coin-4-236671.mp3-b895f3b87af19c29e00f5409a6a920ba.mp3str::
-sus shop-1.png.png::CompressedTexture2D/CompressedTexture2D::6018007035381685180::1750541576::1750541897::1::::<><><>0<>0<>de85d6c9ab4ca6573c45c0ea1c29f7e3<>res://.godot/imported/sus shop-1.png.png-bec6a4e0431a3d3eeeb435e80e4e2226.ctex::
-THIN_PLATFORM.png::CompressedTexture2D/CompressedTexture2D::5198727269214933404::1750639959::1750640013::1::::<><><>0<>0<>76aaf7ed32d0ffd277ea7bbd5fb04562<>res://.godot/imported/THIN_PLATFORM.png-98ecd2b188a4fd775256ed554dd786b3.ctex::
-ZTART.png::CompressedTexture2D/CompressedTexture2D::6018717572920976772::1750652608::1750654555::1::::<><><>0<>0<>8632620431bbb184c473a229e79d132d<>res://.godot/imported/ZTART.png-8ae1113a964418d2ab643a74da91a1d7.ctex::
-::res://sprites/sounds/::1750648082
