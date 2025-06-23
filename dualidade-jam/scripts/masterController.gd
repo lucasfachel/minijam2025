@@ -1,7 +1,7 @@
 extends Node2D
 
 @onready var label: Label = $CanvasLayer/Label
-@onready var shopWindow = $ShopWindow
+@onready var shopWindow = $Camera2D/ShopWindow
 @onready var player = $CharacterBody2D
 
 func _process(delta: float) -> void:

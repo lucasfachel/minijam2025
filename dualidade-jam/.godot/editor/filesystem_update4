@@ -8,3 +8,8 @@ res://scenes/flip_platform.tscn
 res://scripts/player.gd
 res://scenes/Area_2.gd
 res://scripts/shop.gd
+res://scripts/masterController.gd
+res://scripts/flip_platform.gd
+res://scenes/plataforma_fina.tscn
+res://scenes/alavanca.tscn
+res://scenes/alavanca.gd

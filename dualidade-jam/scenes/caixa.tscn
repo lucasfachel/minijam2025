@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://2g4oilc1f526" path="res://scripts/caixa.gd" id="1_i2vea"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_i2vea"]
-friction = 0.15
+friction = 0.5
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i2vea"]
 size = Vector2(32, 32)

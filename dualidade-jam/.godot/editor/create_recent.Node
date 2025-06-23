@@ -1,11 +1,11 @@
 CollisionShape2D
-Area2D
-Node
 Sprite2D
+Area2D
 StaticBody2D
+RigidBody2D
+Node
 Label
 Button
-RigidBody2D
 Panel
 CanvasLayer
 AnimatedSprite2D

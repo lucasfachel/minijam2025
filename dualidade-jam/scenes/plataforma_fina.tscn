@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dss3hjwvbp3qh"]
+
+[ext_resource type="Texture2D" uid="uid://cgckjqblbb60w" path="res://sprites/THIN_PLATFORM.png" id="1_dtthp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wgbj3"]
+size = Vector2(32, 2)
+
+[node name="plataforma_fina" type="StaticBody2D"]
+texture_filter = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 2
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_wgbj3")
+one_way_collision = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_dtthp")

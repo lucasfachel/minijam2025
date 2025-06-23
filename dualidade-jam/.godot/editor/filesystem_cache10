@@ -2,28 +2,37 @@ ea4bc82a6ad023ab7ee23ee620429895
 ::res://::1750625830
 button_theme.tres::Theme::928236092485265310::1750430945::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::4238379311929131723::1750448109::1750448264::1::::<><><>0<>0<>0f3614eac191b25e72a037831553ebe9<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://scenes/::1750625404
-caixa.tscn::PackedScene::6432898378019458894::1750625404::0::1::::<><><>0<>0<><>::uid://23r0e3y3udrk::::res://sprites/New Piskel-6.png.png<>uid://2g4oilc1f526::::res://scripts/caixa.gd
-flip_platform.tscn::PackedScene::2098904478506809339::1750625404::0::1::::<><><>0<>0<><>::uid://cgoxxy756klin::::res://sprites/New Piskel (1).png<>uid://bevdhrk03jom::::res://scripts/flip_platform.gd
-main.tscn::PackedScene::7847433876085048214::1750625404::0::1::::<><><>0<>0<><>::uid://dk4sn1y14lf7::::res://scripts/masterController.gd<>uid://clljfpt7ailvb::::res://scenes/player.tscn<>uid://hgndgc6wtyd1::::res://sprites/New Piskel-2.png (2).png<>uid://cvdojxrxa5ggt::::res://scenes/moeda.tscn<>uid://c6h5taipend0n::::res://scenes/shop.tscn<>uid://cxwe5qjgxugxy::::res://scenes/caixa.tscn<>uid://45ywdr2xofkt::::res://scenes/flip_platform.tscn
-main_menu.tscn::PackedScene::6485644597415146258::1750539891::0::1::::<><><>0<>0<><>::uid://nhv6bhytlvd3::::res://button_theme.tres
-moeda.tscn::PackedScene::6253867562435865479::1750625404::0::1::::<><><>0<>0<><>::uid://dwtwtlmgmyll7::::res://sprites/Moeda.png<>uid://c66dq3473mqh1::::res://scripts/moeda.gd
-player.tscn::PackedScene::5568183003259436023::1750625404::0::1::::<><><>0<>0<><>::uid://bcqck4f6jbsga::::res://scripts/player.gd<>uid://cy4asp64bkc7h::::res://sprites/fudido.png<>uid://dfuubhy5q6hiq::::res://sprites/BlindMask.png
-shop.tscn::PackedScene::6965001617356638707::1750625404::0::1::::<><><>0<>0<><>::uid://cr0fxxkm7samu::::res://sprites/sus shop-1.png.png<>uid://bsb5lcvr3hq5u::::res://scripts/shop.gd
-::res://scripts/::1750625404
+::res://scenes/::1750639773
+caixa.tscn::PackedScene::6432898378019458894::1750639773::0::1::::<><><>0<>0<><>::uid://23r0e3y3udrk::::res://sprites/New Piskel-6.png.png<>uid://2g4oilc1f526::::res://scripts/caixa.gd
+flip_platform.tscn::PackedScene::2098904478506809339::1750639773::0::1::::<><><>0<>0<><>::uid://bevdhrk03jom::::res://scripts/flip_platform.gd<>uid://cyp7uhsd5mejw::::res://sprites/MIRROR_PLATFORM.png
+main.tscn::PackedScene::7847433876085048214::1750639773::0::1::::<><><>0<>0<><>::uid://dk4sn1y14lf7::::res://scripts/masterController.gd<>uid://clljfpt7ailvb::::res://scenes/player.tscn<>uid://hgndgc6wtyd1::::res://sprites/New Piskel-2.png (2).png<>uid://cvdojxrxa5ggt::::res://scenes/moeda.tscn<>uid://c6h5taipend0n::::res://scenes/shop.tscn<>uid://cxwe5qjgxugxy::::res://scenes/caixa.tscn<>uid://45ywdr2xofkt::::res://scenes/flip_platform.tscn<>uid://dnaxwmuas1eog::::res://scenes/Area_2.gd<>uid://bou8wxdb8uk62::::res://scenes/alavanca.tscn
+main_menu.tscn::PackedScene::6485644597415146258::1750639773::0::1::::<><><>0<>0<><>::uid://nhv6bhytlvd3::::res://button_theme.tres
+moeda.tscn::PackedScene::6253867562435865479::1750639773::0::1::::<><><>0<>0<><>::uid://dwtwtlmgmyll7::::res://sprites/Moeda.png<>uid://c66dq3473mqh1::::res://scripts/moeda.gd
+player.tscn::PackedScene::5568183003259436023::1750639773::0::1::::<><><>0<>0<><>::uid://bcqck4f6jbsga::::res://scripts/player.gd<>uid://cy4asp64bkc7h::::res://sprites/fudido.png<>uid://dfuubhy5q6hiq::::res://sprites/BlindMask.png
+Area_2.gd::GDScript::8073153457874631650::1750630412::0::1::::<>Area2D<><>0<>0<><>::
+plataforma_fina.tscn::PackedScene::8461533120143708479::1750639773::0::1::::<><><>0<>0<><>::uid://cgckjqblbb60w::::res://sprites/THIN_PLATFORM.png
+alavanca.tscn::PackedScene::3412396210695750769::1750639773::0::1::::<><><>0<>0<><>::uid://bmcggtdyp3vpt::::res://scenes/alavanca.gd<>uid://ch2rqvi1mjeu4::::res://sprites/LEVER_RIGHT_2.png
+alavanca.gd::GDScript::3233191583267323893::1750639772::0::1::::<>Area2D<><>0<>0<><>::
+shop.tscn::PackedScene::6965001617356638707::1750639773::0::1::::<><><>0<>0<><>::uid://cr0fxxkm7samu::::res://sprites/sus shop-1.png.png<>uid://bsb5lcvr3hq5u::::res://scripts/shop.gd
+::res://scripts/::1750635278
 caixa.gd::GDScript::1909271275961626485::1750625404::0::1::::<>RigidBody2D<><>0<>0<><>::
-flip_platform.gd::GDScript::79727163298082044::1750625404::0::1::::<>StaticBody2D<><>0<>0<><>::
+flip_platform.gd::GDScript::79727163298082044::1750635278::0::1::::<>StaticBody2D<><>0<>0<><>::
 global_data.gd::GDScript::3257704694991919309::1750462045::0::1::::<>Node<><>0<>0<><>::
-masterController.gd::GDScript::233003969630024830::1750625404::0::1::::<>Node2D<><>0<>0<><>::
+masterController.gd::GDScript::233003969630024830::1750635246::0::1::::<>Node2D<><>0<>0<><>::
 moeda.gd::GDScript::7012903471166810280::1750462045::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript::2559969239280465868::1750625404::0::1::::<>CharacterBody2D<><>0<>0<><>::
-shop.gd::GDScript::3653725538745398824::1750625404::0::1::::<>Area2D<><>0<>0<><>::
-::res://sprites/::1750625404
+player.gd::GDScript::2559969239280465868::1750630705::0::1::::<>CharacterBody2D<><>0<>0<><>::
+shop.gd::GDScript::3653725538745398824::1750629275::0::1::::<>Area2D<><>0<>0<><>::
+::res://sprites/::1750639860
 BlindMask.png::CompressedTexture2D/CompressedTexture2D::7552710356124322676::1750625404::1750625832::1::::<><><>0<>0<>f6c1d233417301dccaec44b99f58c1a5<>res://.godot/imported/BlindMask.png-4b7f4eceeb4395032da628bcfd4ac93a.ctex::
 fudido.png::CompressedTexture2D/CompressedTexture2D::6517273550915550095::1750461898::1750461898::1::::<><><>0<>0<>9c3caa98da9450ec84b563553284b88b<>res://.godot/imported/fudido.png-9ab363e1f166af48333c53fa1a6eaddc.ctex::
+GATE.png::CompressedTexture2D::7739908026034245196::1750639860::1750639861::1::::<><><>0<>0<>67e6e81c1da940842154da1eb57085c0<>res://.godot/imported/GATE.png-69becb4f1b15505a5bbf567caac10d21.ctex::
+LEVER_RIGHT_1.png::CompressedTexture2D::4270772851370665211::1750639206::1750639206::1::::<><><>0<>0<>3a16dd06417984d2c73c74120d0b052e<>res://.godot/imported/LEVER_RIGHT_1.png-08dbbbbcc785c36ca33ee9b29a9d1620.ctex::
+LEVER_RIGHT_2.png::CompressedTexture2D::5320963350338055453::1750639286::1750639286::1::::<><><>0<>0<>67779965175a71d24595e9c6ebd413aa<>res://.godot/imported/LEVER_RIGHT_2.png-6b56bee3b99dcab5fffc52b60cdf5323.ctex::
+MIRROR_PLATFORM.png::CompressedTexture2D::6490318336303304184::1750637944::1750637944::1::::<><><>0<>0<>cbd55b659179eb34991ccac71ba30a8c<>res://.godot/imported/MIRROR_PLATFORM.png-455ad98ebc3feef41a104a63c8667547.ctex::
 Moeda.png::CompressedTexture2D/CompressedTexture2D::8744010088952316162::1750457055::1750457055::1::::<><><>0<>0<>0a9186c29166dfb70a718f38a4c80d91<>res://.godot/imported/Moeda.png-dfbcfbb3fb1333f69a97cc2472ba5f30.ctex::
 New Piskel (1).png::CompressedTexture2D/CompressedTexture2D::5224314593263714505::1750625404::1750625831::1::::<><><>0<>0<>37620b564018a62dae3e5edf8e8131cf<>res://.godot/imported/New Piskel (1).png-b2d13f1f679b6656a3a3fd0260412ec4.ctex::
 New Piskel-2.png (1).png::CompressedTexture2D/CompressedTexture2D::984063831501656260::1750452604::1750452604::1::::<><><>0<>0<>60a1ba1dcd3fc8bb7c896b1dabd9cc29<>res://.godot/imported/New Piskel-2.png (1).png-afcdf86fa0bbf24263fc00d467cc29c9.ctex::
 New Piskel-2.png (2).png::CompressedTexture2D/CompressedTexture2D::504503169946645944::1750453212::1750453212::1::::<><><>0<>0<>eae503dc024007a281daa16da8e4b43d<>res://.godot/imported/New Piskel-2.png (2).png-95bfa4b0a1df333731d0ab7bfc7f8265.ctex::
 New Piskel-6.png.png::CompressedTexture2D/CompressedTexture2D::1953978443541782328::1750451251::1750451251::1::::<><><>0<>0<>0df6b6f1c2f36d7fb03ca5ff07f4f628<>res://.godot/imported/New Piskel-6.png.png-a0d9ff0562197cbfaf6c221c81d7240f.ctex::
 sus shop-1.png.png::CompressedTexture2D/CompressedTexture2D::6018007035381685180::1750463507::1750463507::1::::<><><>0<>0<>de85d6c9ab4ca6573c45c0ea1c29f7e3<>res://.godot/imported/sus shop-1.png.png-bec6a4e0431a3d3eeeb435e80e4e2226.ctex::
+THIN_PLATFORM.png::CompressedTexture2D::5198727269214933404::1750638100::1750638101::1::::<><><>0<>0<>76aaf7ed32d0ffd277ea7bbd5fb04562<>res://.godot/imported/THIN_PLATFORM.png-98ecd2b188a4fd775256ed554dd786b3.ctex::

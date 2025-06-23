@@ -1,6 +1,6 @@
 extends StaticBody2D
 
-@onready var player = $"../CharacterBody2D"
+@onready var player = $"../../CharacterBody2D"
 @onready var areaTop = $FlipAreaTop
 @onready var areaBot = $FlipAreaBot
 
